@@ -1,0 +1,429 @@
+/*ACTIVE:
+-all files in job
+*/
+
+/* body */
+body { font-family: "Times New Roman", Times, serif; }
+
+/* index.php -- CV */
+
+.wnavshcl, .wnavbrcl { display: inline-block; }
+.navshcl, .navbrcl { 
+	text-decoration: none;
+	display: inline-block;
+	color: white; 
+	background-color: darkgreen;
+	border: thin solid black;
+	border-bottom-width: 7px;
+	padding: 5px 25px 5px 25px;
+	min-width: 110px;
+	text-align: center;
+	font-size: 110%;
+}
+.navshcl:hover, .navbrcl:hover { border-bottom-color: green; }
+
+
+#allt { width: 99%; }
+.alltd1cl { width: 60%; padding: 10px;vertical-align: top; }
+.alltd2cl { width: 40%; padding: 10px;vertical-align: top; }
+
+
+/* search job section */
+.jh1cl {
+	
+}
+
+.shcvwcl {
+	width: 350px;
+	border: thin solid darkgreen;
+	border-left-width: 15px;
+	padding: 7px;
+	margin-bottom: 10px;
+	outline: none;
+}
+.shcvwcl:focus { border-color: green; }
+.shcvccl {
+	width: 250px;
+	border: thin solid darkgreen;
+	border-left-width: 15px;
+	padding: 7px;
+	margin-bottom: 10px;
+	outline: none;
+}
+.shcvccl:focus { border-color: green; }
+.shcvsbttcl {
+	width: 250px;
+	border: thin solid darkgreen;
+	border-left-width: 15px;
+	padding: 7px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 110%;
+	cursor: pointer;
+}
+.shcvsbttcl:hover { border-color: green; background-color: #00b300; }
+
+/* earch rezult latest added and last day cvs cv */
+#wwshrez { margin-top: 20px;margin-bottom: 20px; margin-right: 10px; text-align: right; }
+#wshrez { display: inline-block; }
+.shrezcl0, .shrezcl1
+{
+	display: inline-block;
+	padding: 10px 40px;
+	border: thin solid grey;
+	background-color: darkgreen;
+	font-size: 120%;
+	color: white;
+	font-weight: bold;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topright:15px;
+	border-top-right-radius:15px;
+	-webkit-border-bottom-right-radius:15px;
+	-moz-border-radius-bottomright:15px;
+	border-bottom-right-radius:15px;
+	-webkit-border-bottom-left-radius:15px;
+	-moz-border-radius-bottomleft:15px;
+	border-bottom-left-radius:15px;
+}
+.shrezcl0 { background-color: darkred; }
+.wvshbsscl {
+	text-align: left;
+	width: 98%;
+	background-color: white;
+	border: thin solid grey;
+	border-left-width: 10px;
+	padding: 5px;
+	margin-bottom: 3px;
+}
+.wvshbsscl:hover { border-color: black; }
+.vshwtitlecl, .vshwlinkcl, .vshwcontactcl, .vshwobscl, .vshwcountry_datecl, .vshwstatuscv_inteviewcl {
+	padding-bottom: 7px;
+}
+.vshwcontactcl, .vshwobscl { white-space: pre-wrap; }
+
+.vshntitlecl, .vshncontactcl, .vshnobscl, .vshncountrycl, .vshndatecl, .vshnstatus_cvcl, .vshninteviewcl {
+	font-weight: bold;
+}
+.vshtitlecl { font-weight: bold; font-size: 111%; }
+
+
+
+/* add new cv form */
+.wwaddcvcl { 
+	background-color: #f2f2f2;
+	border: thin solid lightgrey;
+	padding: 10px;
+	text-align: right;
+	margin-bottom: 25px;
+	z-index: 2;
+}
+.addcvtitlecl { text-align: center; }
+
+.addcvfcl, .addcvccl {
+	width: 88%;
+	border: thin solid darkgreen;
+	border-right-width: 15px;
+	padding: 7px;
+	margin-bottom: 3px;
+	outline: none;
+}
+.addcvfcl:focus, .addcvccl:focus { border-color: green; }
+.addcvfxcl {
+	width: 88%;
+	height: 75px;
+	border: thin solid darkgreen;
+	border-right-width: 15px;
+	padding: 7px;
+	margin-bottom: 3px;
+	outline: none;
+}
+.addcvfxcl:focus { border-color: green; }
+.addcvncl {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	margin-right : 65%;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-width: 100px;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topright:15px;
+	border-top-right-radius:15px;
+	-webkit-border-bottom-right-radius:15px;
+	-moz-border-radius-bottomright:15px;
+	border-bottom-right-radius:15px;
+	-webkit-border-bottom-left-radius:15px;
+	-moz-border-radius-bottomleft:15px;
+	border-bottom-left-radius:15px;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	-ms-transform: translateY(10px);
+	-o-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.addcvbttcl {
+	width: 250px;
+	border: thin solid darkgreen;
+	border-right-width: 15px;
+	padding: 7px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 110%;
+	cursor: pointer;
+}
+.addcvbttcl:hover { border-color: green; background-color: #00b300; }
+
+
+/* latest added and last day cvs cv */
+.lastcvaddedh3cl, .lastcvaddeddayh3cl { text-align: center; background-color: white;margin-bottom: 0px;padding: 5px 0px 5px 0px;}
+.wvaddbsscl {
+	text-align: left;
+	width: 95%;
+	background-color: white;
+	border: thin solid grey;
+	border-right-width: 10px;
+	padding: 5px;
+	margin-bottom: 2px;
+}
+.wvaddbsscl:hover { border-color: black; }
+.vaddwtitlecl, .vaddwlinkcl, .vaddwcontactcl, .vaddwobscl, .vaddwcountry_datecl, .vaddwstatuscv_inteviewcl {
+	padding-bottom: 5px;
+}
+.vaddwcontactcl, .vaddwobscl { white-space: pre-wrap; }
+
+.vaddntitlecl, .vaddncontactcl, .vaddnobscl, .vaddncountrycl, .vaddndatecl, .vaddnstatus_cvcl, .vaddninteviewcl {
+	font-weight: bold;
+}
+.vaddtitlecl { font-weight: bold; font-size: 111%; }
+
+
+
+/* add new country form */
+.wwaddnewcountrycl { 
+	background-color: #f2f2f2;
+	border: thin solid lightgrey;
+	padding: 10px;
+	text-align: right;
+	margin-bottom: 25px;
+}
+.addcytitlecl { text-align: center; }
+.addcynamecl {
+	width: 220px;
+	border: thin solid darkgreen;
+	border-bottom-width: 15px;
+	border-right-width: 15px;
+	padding: 7px;
+	margin-bottom: 10px;
+	outline: none;
+}
+.addcynamecl:focus { border-color: green; }
+.addcybttcl {
+	width: 250px;
+	border: thin solid darkgreen;
+	border-bottom-width: 15px;
+	border-right-width: 15px;
+	padding: 7px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 110%;
+	cursor: pointer;
+}
+.addcybttcl:hover { border-color: green; background-color: #00b300; }
+#sraddcountry { color: darkred; font-size: 110%; }
+
+
+/* edit cv */
+#wweditcv
+{
+	width: 100%;
+	position: fixed;
+    top: 0;
+    bottom:0;
+
+    width: 100%; /* viewport width */
+    height: 100%; /* viewport height */
+    overflow-y: scroll;
+    overflow-x: hidden;
+	
+	padding-top : 25px;
+	padding-bottom: 25px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#weditcv 
+{  
+	background-color: white;
+	padding: 20px;
+	margin-left: 11%;
+	margin-right: 11%;
+	z-index: 1;
+}
+
+.editcvfcl, .editcvccl {
+	width: 75%;
+	border: thin solid darkgreen;
+	border-left-width: 15px;
+	padding: 7px;
+	margin-bottom: 3px;
+	outline: none;
+}
+.editcvfcl:focus, .editcvccl:focus { border-color: green; }
+.editcvfxcl {
+	width: 75%;
+	height: 75px;
+	border: thin solid darkgreen;
+	border-left-width: 15px;
+	padding: 7px;
+	margin-bottom: 3px;
+	outline: none;
+}
+.editcvfxcl:focus { border-color: green; }
+.editcvncl {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	margin-right : 65%;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-width: 100px;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topright:15px;
+	border-top-right-radius:15px;
+	-webkit-border-bottom-right-radius:15px;
+	-moz-border-radius-bottomright:15px;
+	border-bottom-right-radius:15px;
+	-webkit-border-bottom-left-radius:15px;
+	-moz-border-radius-bottomleft:15px;
+	border-bottom-left-radius:15px;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	z-index: 2;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	-ms-transform: translateY(10px);
+	-o-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.editcvbttcl {
+	width: 250px;
+	border: thin solid darkgreen;
+	border-left-width: 15px;
+	padding: 7px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 110%;
+	cursor: pointer;
+}
+.editcvbttcl:hover { border-color: green; background-color: #00b300; }
+
+#editclear {
+	width: 250px;
+	border: thin solid darkgreen;
+	border-right-width: 15px;
+	padding: 7px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	outline: none;
+	font-size: 110%;
+	cursor: pointer;
+}
+#editclear:hover { border-color: green; background-color: #00b300; }
+
+
+/* browse jobs */
+.brcvccl, .brcvmonthcl {
+	width: 250px;
+	border: thin solid darkgreen;
+	border-left-width: 15px;
+	padding: 7px;
+	margin-bottom: 10px;
+	outline: none;
+}
+.brcvccl:focus, .brcvmonthcl:focus { border-color: green; }
+.brcvsortvalcl, .brcvsortcl {
+	width: 250px;
+	border: thin solid darkgreen;
+	border-right-width: 15px;
+	padding: 7px;
+	margin-bottom: 10px;
+	outline: none;
+}
+.brcvsortvalcl:focus, .brcvsortcl:focus { border-color: green; }
+.brcvsubmnitbttcl {
+	width: 250px;
+	border: thin solid darkgreen;
+	border-left-width: 15px;
+	padding: 7px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 110%;
+	cursor: pointer;
+}
+.brcvsubmnitbttcl:hover { border-color: green; background-color: #00b300; }
+
+#wbrowseresults { margin-top: 20px;margin-bottom: 20px; margin-right: 10px; text-align: right; }
+#browseresults, #browseresults0
+{
+	display: inline-block;
+	padding: 10px 40px;
+	border: thin solid grey;
+	background-color: darkgreen;
+	font-size: 120%;
+	color: white;
+	font-weight: bold;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topright:15px;
+	border-top-right-radius:15px;
+	-webkit-border-bottom-right-radius:15px;
+	-moz-border-radius-bottomright:15px;
+	border-bottom-right-radius:15px;
+	-webkit-border-bottom-left-radius:15px;
+	-moz-border-radius-bottomleft:15px;
+	border-bottom-left-radius:15px;
+}
+#browseresults0 { background-color: darkred; }
+.wvbrbsscl {
+	text-align: left;
+	width: 98%;
+	background-color: white;
+	border: thin solid grey;
+	border-left-width: 10px;
+	padding: 5px;
+	margin-bottom: 3px;
+}
+.wvbrbsscl:hover { border-color: black; }
+.vbrwtitlecl, .vbrwlinkcl, .vbrwcontactcl, .vbrwobscl, .vbrwcountry_datecl, .vbrwstatuscv_inteviewcl {
+	padding-bottom: 7px;
+}
+.vbrwcontactcl, .vbrwobscl { white-space: pre-wrap; }
+
+.vbrntitlecl, .vbrncontactcl, .vbrnobscl, .vbrncountrycl, .vbrndatecl, .vbrnstatus_cvcl, .vbrninteviewcl {
+	font-weight: bold;
+}
+.vbrtitlecl { font-weight: bold; font-size: 120%; }
+
+
+
+
+
+
+

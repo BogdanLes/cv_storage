@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbcv>
+  <cvnr>10</cvnr>
+  <database>
+    <bss1>
+      <cvnr>1</cvnr>
+      <bss>Test1 -eee</bss>
+      <link>https://www.jubuti.com</link>
+      <contact>aaa@ttt.com</contact>
+      <obs>First cv test.</obs>
+      <date>2024-05-15</date>
+      <country>Romania</country>
+      <status>on</status>
+      <interview>no</interview>
+    </bss1>
+    <bss2>
+      <cvnr>2</cvnr>
+      <bss>Test1 - 6.6</bss>
+      <link>http://www.google.com</link>
+      <contact>contact 1 6.6&#13;
+con linie noua</contact>
+      <obs>obs 1 -6.6&#13;
+test linie noua</obs>
+      <date>2024-06-06</date>
+      <country>Italy</country>
+      <status>on</status>
+      <interview>no</interview>
+    </bss2>
+    <bss3>
+      <cvnr>3</cvnr>
+      <bss>Test2 - 6.6</bss>
+      <link>http://www.google.com2</link>
+      <contact>contact 2 - 6.6</contact>
+      <obs>obs 2 - 6.6</obs>
+      <date>2024-06-06</date>
+      <country>Italy</country>
+      <status>on</status>
+      <interview>no</interview>
+    </bss3>
+    <bss4>
+      <cvnr>4</cvnr>
+      <bss>Test3 - 6.6</bss>
+      <link>http://www.google.com3</link>
+      <contact>contact 3 - 6.6</contact>
+      <obs>obs 3 -6.6</obs>
+      <date>2024-06-06</date>
+      <country>Germany</country>
+      <status>on</status>
+      <interview>no</interview>
+    </bss4>
+    <bss5>
+      <cvnr>5</cvnr>
+      <bss>Test4 - 6.6</bss>
+      <link>http://www.google4.com</link>
+      <contact>contact 4 6.6</contact>
+      <obs>obs 4 6.6</obs>
+      <date>2024-06-06</date>
+      <country>Germany</country>
+      <status>on</status>
+      <interview>no</interview>
+    </bss5>
+    <bss6>
+      <cvnr>6</cvnr>
+      <bss>Test1 -- 6.7 "' &lt;&gt; !@#$/t12</bss>
+      <link>http://www.google.comt12</link>
+      <contact>contact for comp 1 -- 6.7t12</contact>
+      <obs>obs for comp 1 -- 6.7&#13;
+aaa !@#$%^&amp;&lt;&gt;"'/t12</obs>
+      <date>2024-06-07</date>
+      <country>India</country>
+      <status>ont12</status>
+      <interview>not12</interview>
+    </bss6>
+    <bss7>
+      <cvnr>7</cvnr>
+      <bss>Test 2 -- 6.7</bss>
+      <link>http://www.google2.com</link>
+      <contact>c info 2 -- 6.7</contact>
+      <obs>o info 2 -- 6.7</obs>
+      <date>2024-06-07</date>
+      <country>Romania</country>
+      <status>on</status>
+      <interview>no</interview>
+    </bss7>
+    <bss8>
+      <cvnr>8</cvnr>
+      <bss>Test1 - 13.8</bss>
+      <link>http://www.imdb.com</link>
+      <contact>Test1 luna 8 contact info &#13;
+data 13.08.2024</contact>
+      <obs>observations test 1 -- 13.08</obs>
+      <date>2024-08-13</date>
+      <country>Romania</country>
+      <status>on</status>
+      <interview>no</interview>
+    </bss8>
+    <bss9>
+      <cvnr>9</cvnr>
+      <bss>zzz - 13.08</bss>
+      <link>http://www.google.com</link>
+      <contact>contact zzz</contact>
+      <obs>observations zzzz</obs>
+      <date>2024-08-13</date>
+      <country>Romania</country>
+      <status>on</status>
+      <interview>no</interview>
+    </bss9>
+    <bss10>
+      <cvnr>10</cvnr>
+      <bss>xxx</bss>
+      <link>http://www.google.com</link>
+      <contact>contact xxx</contact>
+      <obs>observations xxx</obs>
+      <date>2024-08-13</date>
+      <country>Romania</country>
+      <status>on</status>
+      <interview>no</interview>
+    </bss10>
+  </database>
+</dbcv>

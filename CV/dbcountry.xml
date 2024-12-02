@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbc>
+  <countrynr>6</countrynr>
+  <dbcountry>
+    <country1>Romania</country1>
+    <country2>United Kingdom</country2>
+    <country3>India</country3>
+    <country4>Germany</country4>
+    <country5>France</country5>
+    <country6>Italy</country6>
+  </dbcountry>
+</dbc>
